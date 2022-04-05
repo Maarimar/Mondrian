@@ -61,35 +61,70 @@ function draw(){
         ctx.lineWidth = 16;
         ctx.strokeRect(713, 200, 219, 212);
 
-        // botton part
+        // botton part////////
         ctx.lineWidth = 15;
-        ctx.strokeRect(300, 708, 170, 85);
-
+        ctx.strokeRect(250, 708, 215, 85);
         ctx.lineWidth = 17;
         ctx.strokeRect(466, 707, 236, 85);
 
+    
+
         ctx.fillStyle = 'yellow';
-        ctx.fillRect(214, 714, 80, 180)
+        ctx.fillRect(214, 714, 80, 200)
+        ctx.lineWidth = 16;
+        ctx.strokeRect(210, 708, 80, 200);
+        ctx.clearRect(200, 700, 20, 200);
+        ctx.clearRect(200, 900, 100, 20);
 
         ctx.fillStyle = 'black';
         ctx.fillRect(464, 800, 247, 85);
 
         ctx.lineWidth = 17;
-        ctx.strokeRect(466, 707, 236, 85);
+        ctx.strokeRect(470, 707, 300, 85);
 
         //big blue
         ctx.lineWidth = 22;
-        ctx.strokeRect(700, 707, 227, 177);
+        ctx.strokeRect(702, 707, 227, 168);
         ctx.fillStyle='blue';
-        ctx.fillRect(705, 707, 223, 175);
+        ctx.fillRect(708, 715, 215, 155);
 
+        //small red
+        ctx.fillStyle = 'red';
+        ctx.fillRect(940, 712, 50, 200)
+        ctx.lineWidth = 15;
+        ctx.strokeRect(945, 706, 50, 200);
+        ctx.clearRect(936, 898, 80, 20);
+        ctx.clearRect(988,698, 15, 200);
 
+        ////yellowtop///
 
-
-
-        
-        
+        ctx.fillStyle= 'yellow';
+        ctx.fillRect(714, 108, 225, 80);
+        ctx.lineWidth = 16;
+        ctx.strokeRect(713, 110, 219, 80);
+        ctx.clearRect(700, 102, 270, 20);
        
+
+// lines -----------
+
+ctx.beginPath();
+ctx.moveTo(220, 200);
+ctx.lineTo(300, 200);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(400, 200);
+ctx.lineWidth = 20;
+ctx.lineTo(400, 130);
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.moveTo(466.5, 800);
+ctx.lineWidth = 20;
+ctx.lineTo(466.5, 900);
+ctx.stroke();
+
 
 
 
