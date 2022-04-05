@@ -1,2 +1,2 @@
 # Mondrian
-Create a Mondrian with code
+Create a Mondrian with code using Canvas API
